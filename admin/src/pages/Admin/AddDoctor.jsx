@@ -167,9 +167,8 @@ const AddDoctor = () => {
 
             </div>
 
-
         </form>
     )
 }
 
-export default AddDoctor
+export default AddDoctor 

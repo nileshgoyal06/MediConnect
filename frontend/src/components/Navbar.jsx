@@ -6,7 +6,6 @@ import { AppContext } from '../context/AppContext'
 const Navbar = () => {
 
   const navigate = useNavigate()
-
   const [showMenu, setShowMenu] = useState(false)
   const { token, setToken, userData } = useContext(AppContext)
 
