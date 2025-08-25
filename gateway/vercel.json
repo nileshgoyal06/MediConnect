@@ -1,8 +1,9 @@
 {
   "rewrites": [
-    { "source": "/admin", "destination": "/admin/index.html" },
-    { "source": "/admin/(.*)", "destination": "/admin/$1" },
-    { "source": "/(.*)", "destination": "/frontend/$1" }
+    { "source": "/api/(.*)", "destination": "https://mediconnect-02hm.onrender.com/api/$1" },
+    { "source": "/admin", "destination": "/admin.html" },
+    { "source": "/admin/(.*)", "destination": "/admin.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
 

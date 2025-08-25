@@ -1,14 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>MediConnect Gateway</title>
-    <meta http-equiv="refresh" content="0; url=/frontend/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediConnect - Book Appointments with Top Doctors</title>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; }
+        .container { padding: 20px; text-align: center; }
+        .logo { font-size: 2em; color: #3B82F6; margin-bottom: 20px; }
+        .description { color: #666; margin-bottom: 30px; }
+        .cta { background: #3B82F6; color: white; padding: 15px 30px; border: none; border-radius: 8px; cursor: pointer; font-size: 16px; }
+        .cta:hover { background: #2563EB; }
+    </style>
 </head>
 <body>
-    <h1>MediConnect Gateway</h1>
-    <p>Redirecting to frontend...</p>
-    <script>
-        window.location.href = '/frontend/';
-    </script>
+    <div class="container">
+        <div class="logo">🏥 MediConnect</div>
+        <div class="description">
+            Book appointments with top doctors. Your health, our priority.
+        </div>
+        <button class="cta" onclick="window.location.href='/admin'">Go to Admin Panel</button>
+    </div>
 </body>
 </html>
