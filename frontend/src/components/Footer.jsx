@@ -2,6 +2,10 @@ import React from 'react';
 import { assets } from '../assets/assets';
 
 const Footer = () => {
+  const handleAdminClick = () => {
+    window.open('https://mediconnect-admin-p49fsjja5-nilesh-goyals-projects.vercel.app', '_blank');
+  };
+
   return (
     <div className='md:mx-10'>
       <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm'>
@@ -22,6 +26,12 @@ const Footer = () => {
             <li>About us</li>
             <li>Delivery</li>
             <li>Privacy policy</li>
+            <li 
+              className='cursor-pointer hover:text-primary transition-colors duration-200'
+              onClick={handleAdminClick}
+            >
+              🏥 Admin Panel
+            </li>
           </ul>
         </div>
 
