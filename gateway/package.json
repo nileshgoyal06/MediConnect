@@ -1,0 +1,6 @@
+{
+  "name": "mediconnect-gateway",
+  "version": "1.0.0",
+  "description": "Gateway for MediConnect app routing",
+  "main": "index.html"
+}
