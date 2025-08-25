@@ -1,8 +1,13 @@
 {
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://mediconnect-02hm.onrender.com/api/$1" },
     { "source": "/admin", "destination": "https://mediconnect-admin-nd41od5sw-nilesh-goyals-projects.vercel.app" },
     { "source": "/admin/(.*)", "destination": "https://mediconnect-admin-nd41od5sw-nilesh-goyals-projects.vercel.app/$1" },
     { "source": "/(.*)", "destination": "https://mediconnect-frontend-q3ktqh9yt-nilesh-goyals-projects.vercel.app/$1" }
   ]
 }
+
