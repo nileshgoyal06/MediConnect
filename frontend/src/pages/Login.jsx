@@ -25,6 +25,7 @@ const Login = () => {
       if (data.success) {
         localStorage.setItem('token', data.token)
         setToken(data.token)
+        toast.success('Account created successfully!')
       } else {
         toast.error(data.message)
       }
@@ -36,6 +37,7 @@ const Login = () => {
       if (data.success) {
         localStorage.setItem('token', data.token)
         setToken(data.token)
+        toast.success('Login successful!')
       } else {
         console.log(data)
         toast.error(data.message)
@@ -47,7 +49,7 @@ const Login = () => {
 
   useEffect(() => {
     if (token) {
-      navigate('/login')
+      navigate('/')
     }
   }, [token])
 
