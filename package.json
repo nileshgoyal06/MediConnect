@@ -1,0 +1,21 @@
+{
+  "name": "mediconnect-keep-alive",
+  "version": "1.0.0",
+  "description": "Keep-alive script for MediConnect Render backend",
+  "main": "keep-alive.js",
+  "scripts": {
+    "start": "node keep-alive.js",
+    "setup": "setup.bat"
+  },
+  "keywords": [
+    "keep-alive",
+    "ping",
+    "render",
+    "mediconnect"
+  ],
+  "author": "MediConnect Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
