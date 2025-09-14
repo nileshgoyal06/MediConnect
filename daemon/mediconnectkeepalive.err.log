@@ -2,3 +2,18 @@
 [2025-09-14T08:34:28.146Z] ⏰ Request timed out after 30000ms
 [2025-09-14T08:39:28.595Z] ⏰ Request timed out after 30000ms
 [2025-09-14T08:44:28.747Z] ⏰ Request timed out after 30000ms
+[2025-09-14T08:49:35.536Z] ⏰ Request timed out after 30000ms
+[2025-09-14T09:17:27.749Z] ❌ Error pinging server: getaddrinfo ENOTFOUND mediconnect-02hm.onrender.com (39ms)
+[2025-09-14T09:22:27.731Z] ❌ Error pinging server: getaddrinfo ENOTFOUND mediconnect-02hm.onrender.com (13ms)
+[2025-09-14T09:27:27.734Z] ❌ Error pinging server: getaddrinfo ENOTFOUND mediconnect-02hm.onrender.com (9ms)
+[2025-09-14T09:32:59.056Z] ⏰ Request timed out after 30000ms
+[2025-09-14T09:37:58.655Z] ⏰ Request timed out after 30000ms
+[2025-09-14T09:42:59.066Z] ⏰ Request timed out after 30000ms
+[2025-09-14T09:47:59.157Z] ⏰ Request timed out after 30000ms
+[2025-09-14T09:52:27.766Z] ❌ Error pinging server: getaddrinfo ENOTFOUND mediconnect-02hm.onrender.com (10ms)
+[2025-09-14T09:57:27.778Z] ❌ Error pinging server: getaddrinfo ENOTFOUND mediconnect-02hm.onrender.com (14ms)
+[2025-09-14T10:34:16.031Z] ❌ Error pinging server: getaddrinfo ENOTFOUND mediconnect-02hm.onrender.com (57ms)
+[2025-09-14T11:20:51.082Z] ❌ Error pinging server: getaddrinfo ENOTFOUND mediconnect-02hm.onrender.com (8ms)
+[2025-09-14T15:38:50.387Z] ❌ Error pinging server: getaddrinfo ENOTFOUND mediconnect-02hm.onrender.com (2ms)
+[2025-09-14T15:44:20.910Z] ⏰ Request timed out after 30000ms
+[2025-09-14T15:44:20.912Z] ❌ Error pinging server: socket hang up (30513ms)

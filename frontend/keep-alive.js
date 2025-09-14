@@ -1,5 +1,5 @@
-const https = require('https');
-const http = require('http');
+import https from 'https';
+import http from 'http';
 
 // Configuration
 const RENDER_URL = 'https://mediconnect-02hm.onrender.com';
